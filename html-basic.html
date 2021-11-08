@@ -30,7 +30,7 @@
     <u>这个呢?</u> 
     <em>这个呢?</em>
   </p>
-  <!--
+  &gt;!--
     这段注释需要出现在页面里面
     -->
   
@@ -76,7 +76,32 @@
 
   <hr>
   <h3>Google搜索</h3>
-  <input type="text" text="请填写此字段">
+  <form action="https:https://www.google.com.hk" target="_blank" rel="search">
+    <input type="text" title="请填写此字段." required>
+    <button type="submit" target="_blank">在新窗口打开搜索结果</button>
+  </form>
+  
+  <hr>
+  
+  <div>性别</div>
+    <input type="radio" name="性别">男<input type="radio" name="性别">女
+  <div>年龄</div>
+    <select name="年龄" id="" >
+      <optgroup label=少年>
+        <option value="">1到6岁</option>
+        <option value="">6到12岁</option>
+      </optgroup>
+      <optgroup label=青年>
+        <option value="">13到15岁</option>
+        <option value="">16到18岁</option>
+      </optgroup>
+      <optgroup label=壮年>
+        <option value="">18到28岁</option>
+        <option value="">28到38岁</option>
+      </optgroup>
+    </select>
+  <div>生日</div>
+  
 <span  id='fotter'> >>>>>>>>>>>>>>>>><<<<<<<<<< &lt;span>&lt;span></span>
 </body>
 </html>
