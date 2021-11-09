@@ -24,11 +24,11 @@
   <hr>
   <marquee behavior="" direction="">飘~~~</marquee>
   <p>
-    这几种强调
+    <em>这几种强调</em>
     <b>有什么</b> 
     <strong>区别呢</strong> 
     <u>这个呢?</u> 
-    <em>这个呢?</em>
+    <i>这个呢?</i>
   </p>
   &gt;!--
     这段注释需要出现在页面里面
@@ -75,33 +75,112 @@
   </dl>
 
   <hr>
-  <h3>Google搜索</h3>
-  <form action="https:https://www.google.com.hk" target="_blank" rel="search">
-    <input type="text" title="请填写此字段." required>
-    <button type="submit" target="_blank">在新窗口打开搜索结果</button>
+<h3>google搜索</h3>
+<form action="https://www.google.com.hk/" target="_blank">
+  <input type="q" required>
+  <button type="submit">在新窗口打开搜索结果</button>
   </form>
-  
+
   <hr>
+
+  <form action="">
+    个人信息调查表
   
-  <div>性别</div>
-    <input type="radio" name="性别">男<input type="radio" name="性别">女
-  <div>年龄</div>
-    <select name="年龄" id="" >
-      <optgroup label=少年>
-        <option value="">1到6岁</option>
-        <option value="">6到12岁</option>
-      </optgroup>
-      <optgroup label=青年>
-        <option value="">13到15岁</option>
-        <option value="">16到18岁</option>
-      </optgroup>
-      <optgroup label=壮年>
-        <option value="">18到28岁</option>
-        <option value="">28到38岁</option>
-      </optgroup>
-    </select>
-  <div>生日</div>
+    <dl>
   
-<span  id='fotter'> >>>>>>>>>>>>>>>>><<<<<<<<<< &lt;span>&lt;span></span>
+      <dt>性别
+      <dd>
+        <label>
+          <input type="radio" value="male" name="people">男
+        </label>
+        <label>
+          <input type="radio" value="female" name="people">女
+        </label>
+      </dd>
+      </dt>
+  
+      <dt>年龄
+      <dd>
+        <select name="age" id="">
+          <option hidden>
+      <dd>请选择</dd>
+      </option>
+      <optgroup label="少年">
+        <option value="少年">
+          <dd>1到6岁</dd>
+        </option>
+        <option value="少年">
+          <dd>6到12岁</dd>
+        </option>
+      </optgroup>
+              <optgroup label="青年">
+                <option value="青年">
+                  <dd>13到15岁</dd>
+                </option>
+                <option value="青年">
+                  <dd>16到18岁</dd>
+                </option>
+              </optgroup>
+            <optgroup label="壮年">
+              <option value="壮年">
+                <dd>1到6岁</dd>
+              </option>
+              <option value="壮年">
+                <dd>6到12岁</dd>
+              </option>
+            </optgroup>
+            </select>
+        </dd>
+        </dt>
+        
+        <dt>生日
+        <dd>
+          <input type="date" name="day">
+        </dd>
+        </dt>
+        
+        <dt>生辰
+        <dd>
+          <input type="time" name="time">
+        </dd>
+        </dt>
+        
+        <dt>照片
+        <dd>
+          <label>
+            <input type="file" name="上传照片" hidden> 点我上传照片,我比上传按钮更好看
+          </label>
+        </dd>
+        </dt>
+        
+        <dt>肤色
+        <dd>
+          <input type="color" name="肤色">
+        </dd>
+        </dt>
+        
+        <dt>自我介绍
+        <dd>
+          <textarea name="自我介绍" id="" cols="30" rows="10">&lt;/textarea></textarea>
+        </dd>
+        </dt>
+        
+        <dt>
+          <fieldset disabled="disabled">
+            <legend>这里面全都禁用了</legend>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+          </fieldset>
+          <button type="submit">提交</button> <button type="reset">重置</button>
+        </dt>
+        </dl>
+        
+        </form>
+        
+        
+        
+        <span id='fotter'> >>>>>>>>>>>>>>>>><<<<<<<<<< &lt;span>&lt;span></span>
 </body>
 </html>
