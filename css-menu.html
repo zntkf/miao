@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .列表{
+      display: none;
+      position:absolute;
+      top: 10px;
+      left: -30px;
+      list-style: none;
+    } 
+
+    .ul2{
+      display: none;
+      position:absolute;
+      list-style: none;
+    } 
+    .li3:hover .ul2{
+      display: block;
+    }
+    .main:hover .列表{
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<div class="main">
+  菜单
+    <ul class="列表">
+      <li>111</li>
+      <li>222</li>
+      <li class="li3">333
+        <ul class="ul2">
+          <li>aaa</li>
+          <li>bbb</li>
+          <li>ccc</li>
+        </ul>
+      </li>
+</div>
+</body>
+</html>
