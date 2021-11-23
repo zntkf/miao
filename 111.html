@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    * {
+      background-color: rgba(0, 0, 0, 0.08);
+      box-shadow: inset 0 0 1px red;
+    }
+    body , html , div{
+      height: 100%;
+    }
+    div{
+      position: relative;
+
+    }
+    .left{
+      position:absolute;
+      width: 200px;
+      height: 100%;
+      left: 0px;
+      background-color: wheat;
+    }
+    header{
+      position:absolute;
+      background-color: green;
+      height: 100px;
+      right: 400px;
+      left: 200px;
+    }
+    main{
+      position:absolute;
+      background-color:orange;
+      right: 400px;
+      left: 200px;
+      top: 100px;
+      bottom: 0px;
+    }
+    section{
+      position:absolute;
+      width: 200px;
+      height: 100%;
+      right: 200px;
+      background-color:khaki;
+    }
+    .right{
+      position:absolute;
+      width: 200px;
+      height: 100%;
+      right: 0px;
+      background-color:pink;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div>
+    <header></header>
+    <aside class="left"></aside>
+    <main></main>
+    <section></section>
+    <aside class="right"></aside>
+  </div>
+</body>
+</html>
