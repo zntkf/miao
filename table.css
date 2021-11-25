@@ -1,0 +1,42 @@
+.table {
+  width: 100%;
+  text-align:left;
+  border-collapse:collapse;
+}
+.table thead tr {
+  height: 40px;
+}
+.table thead{
+  border-bottom: 2px solid;
+}
+ .table tbody tr {
+  border-bottom: 1px solid;
+}
+/* table */
+
+ .table-dark{
+  background-color: rgb(52,58,64);
+  color: white;
+ }
+ .table-dark thead{ 
+   border-bottom: 2px solid rgb(69, 77, 85);
+  }
+  /*table table-dark */
+
+  .table-dark tbody tr {
+    border-bottom: 1px solid rgb(69, 77, 85);
+  }
+
+  .table-dark tbody tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  /* table table-striped /table-dark table-striped*/
+
+  .table-hover tr:hover{
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+
+
+
+  

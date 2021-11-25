@@ -9,24 +9,25 @@
       background-color: rgba(0, 0, 0, 0.08);
       box-shadow: inset 0 0 1px red;
     }
-
-    div {
+    label{
+      display: inline-block;
+      background-image: url(./web_heart_animation.png);
       width: 100px;
       height: 100px;
-      overflow: hidden;
+      position: relative;
+      margin: auto;
+      border: solid 1px;
     }
-
-    div:active img {
-      margin-left: -2800%;
-      transition: 0.35s steps(28, start);
+    input:checked + label{
+      background-position:-2800px ;
+      transition: 1s steps(28);
     }
   </style>
 </head>
 
 <body>
-  <div>
-    <img src="./web_heart_animation.png" alt="">
-  </div>
+  <input type="checkbox" value="" id="a1" hidden>
+  <label for="a1"></label>
 </body>
 
 </html>

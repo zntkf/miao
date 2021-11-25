@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,body{
+      height: 100%;
+      width:  100%;
+    }
+    main{
+      position: relative;
+      height: 100%;
+      width:  100%;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+    /* 这边建议亲看看效果呢 */
+    label {
+      margin: auto;
+      display: table;
+      height: 100px;
+      width: 200px;
+      border-radius: 50px;
+      border: 3px solid;
+      xposition: relative;
+      vertical-align: middle;
+
+    }
+
+    div {
+      
+      height: 90px;
+      width: 90px;
+      border-radius: 50px;
+      border: 3px solid;
+      xposition: absolute;
+      background-color: white;
+      transition: 0.5s;
+      xtop: 0px;
+      xbottom: 0px;
+      xmargin: 1%;
+    }
+
+
+    input:checked+label div {
+      margin-left: 1110px;
+      width: 90px;
+      transition: 0.5s;
+    }
+
+    input:checked+label {
+      background-color: greenyellow;
+      transition: 0.5s;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <main>
+    <input type="checkbox" name="" hidden id="a1">
+    <label for="a1">
+      <div></div>
+    </label>
+  </main>
+</body>
+
+</html>
