@@ -8,30 +8,40 @@
   <title>Document</title>
   <style>
     * {
-      background-color: rgba(0, 0, 0, 0.05);
-      border: 1px solid red;
-      margin: 0px;
-  
+      background-color: rgba(0, 0, 0, 0.11);
+      box-shadow:inset 0px 0px 1px 1px red;
     }
-  
-    dt {
-      float: left;
-      clear: left;
-      padding: 0.5em;
+    dl{
+      padding-left: 70px;
     }
-  
-    dd {
+    dd{
       float: left;
       margin: 0px;
-      padding: 0.5em;
     }
+    dt{
+      clear: both;
+      margin-bottom: -20px;
+      margin-top: 5px;
+      width: 70px;
+      position: relative;
+      padding-right: 10px;
+      text-align: right;
+      left: -100px;
+    }
+    dt + dd{
+      margin-left: 60px;
+    }
+    dl{
+      padding-left: 100px;
+    }
+
+    
   </style>
 </head>
 
 <body>
   <dl class="a1">
     <dt class="dt1">物品01
-    <dd></dd>
     <dd>各种物品01</dd>
     <dd>各种物品02</dd>
     <dd>各种物品03</dd>
@@ -41,7 +51,6 @@
     <dd>各种物品07</dd>
     </dt>
     <dt class="dt2">物品02
-    <dd></dd>
     <dd>各种物品01</dd>
     <dd>各种物品02</dd>
     <dd>各种物品03</dd>
@@ -51,7 +60,6 @@
     <dd>各种物品07</dd>
     </dt>
     <dt class="dt3">物品03
-    <dd></dd>
     <dd>各种物品01</dd>
     <dd>各种物品02</dd>
     <dd>各种物品03</dd>
@@ -61,7 +69,6 @@
     <dd>各种物品07</dd>
     </dt>
     <dt class="dt4">物品04
-    <dd></dd>
     <dd>各种物品01</dd>
     <dd>各种物品02</dd>
     <dd>各种物品03</dd>
