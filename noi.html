@@ -14,25 +14,31 @@
   var c = parseInt(prompt("c: "))
 
   //console.log ((-10000 < a < 10000 && -10000 < b < 10000 && -10000 < c < 10000 && c != 0) ? parseInt((a + b) * c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
-  console.log ((-10000 < a && a < 10000 && -10000 < b && b < 10000 && -10000 < c && c < 10000 && c != 0) ? parseInt((a + b) * c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
   //console.log ((-10000 < a && b && c < 10000 && c != 0) ? parseInt((a + b) / c) : "a,b,c的输入范围为-10000至10000 且 c不能为0 请重新输入" )
   //console.log ( (a + b) * c)
+
+  console.log ((-10000 < a && a < 10000 && -10000 < b && b < 10000 && -10000 < c && c < 10000 && c != 0) ? parseInt((a + b) * c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
 </script>
 <script id="ch0103/03">
   alert("这是个(a+b)*c取整计算器")
 
-var a = parseInt(prompt("a: "))
-var b = parseInt(prompt("b: "))
-var c = parseInt(prompt("c: "))
+  var a = parseInt(prompt("a: "))
+  var b = parseInt(prompt("b: "))
+  var c = parseInt(prompt("c: "))
 
-//console.log ((-10000 < a < 10000 && -10000 < b < 10000 && -10000 < c < 10000 && c != 0) ? parseInt((a + b) * c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
-//console.log ((-10000 < a && b && c < 10000 && c != 0) ? parseInt((a + b) / c) : "a,b,c的输入范围为-10000至10000 且 c不能为0 请重新输入" )
-//console.log ( (a + b) * c)
+  //console.log ((-10000 < a < 10000 && -10000 < b < 10000 && -10000 < c < 10000 && c != 0) ? parseInt((a + b) * c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
+  //console.log ((-10000 < a && b && c < 10000 && c != 0) ? parseInt((a + b) / c) : "a,b,c的输入范围为-10000至10000 且 c不能为0 请重新输入" )
+  //console.log ( (a + b) * c)
 
-console.log ((-10000 < a && a < 10000 && -10000 < b && b < 10000 && -10000 < c && c < 10000 && c != 0) ? parseInt((a + b) * c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
+  console.log ((-10000 < a && a < 10000 && -10000 < b && b < 10000 && -10000 < c && c < 10000 && c != 0) ? parseInt((a + b) / c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
 </script>
 <script id="ch0103/04">
+  alert("我能显示商和余数")
 
+  var 被除数 = parseInt(prompt("被除数: "))
+  var 除数 = parseInt(prompt("除数: "))
+
+  console.log("商 :", parseInt(被除数 / 除数) , "余数" ,被除数 % 除数)
 </script>
 <script id="ch0103/05">
 
