@@ -1,10 +1,14 @@
 <script id="ch0103/01">
+  alert("这是个加法取整计算器")
+
   var a = parseInt(prompt("a: "))
   var b = parseInt(prompt("b: "))
 
   console.log ( a + b )
 </script>
 <script id="ch0103/02">
+  alert("这是个(a+b)*c取整计算器")
+
   var a = parseInt(prompt("a: "))
   var b = parseInt(prompt("b: "))
   var c = parseInt(prompt("c: "))
@@ -12,7 +16,13 @@
   console.log ((-10000 < a && b && c < 10000) ? (a + b) * c : "a,b,c的输入范围为-10000至10000 请重新输入" )
 </script>
 <script id="ch0103/03">
+  alert("这是个(a+b)/c取整计算器")
 
+  var a = parseInt(prompt("a: "))
+  var b = parseInt(prompt("b: "))
+  var c = parseInt(prompt("c: "))
+
+  console.log ((-10000 < a && b && c < 10000 & c != 0) ? parseInt((a + b) / c) : "a,b,c的输入范围为-10000至10000 且 c不能为0 请重新输入" )
 </script>
 <script id="ch0103/04">
 
