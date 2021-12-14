@@ -1,5 +1,5 @@
 <script id="ch0103/01">
-  alert("这是个加法取整计算器")
+  // alert("这是个加法取整计算器")
 
   var a = parseInt(prompt("a: "))
   var b = parseInt(prompt("b: "))
@@ -7,7 +7,7 @@
   console.log ( a + b )
 </script>
 <script id="ch0103/02">
-  alert("这是个(a+b)*c取整计算器")
+  // alert("这是个(a+b)*c取整计算器")
 
   var a = parseInt(prompt("a: "))
   var b = parseInt(prompt("b: "))
@@ -20,7 +20,7 @@
   console.log ((-10000 < a && a < 10000 && -10000 < b && b < 10000 && -10000 < c && c < 10000 && c != 0) ? parseInt((a + b) * c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
 </script>
 <script id="ch0103/03">
-  alert("这是个(a+b)*c取整计算器")
+  // alert("这是个(a+b)*c取整计算器")
 
   var a = parseInt(prompt("a: "))
   var b = parseInt(prompt("b: "))
@@ -33,7 +33,7 @@
   console.log ((-10000 < a && a < 10000 && -10000 < b && b < 10000 && -10000 < c && c < 10000 && c != 0) ? parseInt((a + b) / c) : "a,b,c的输入范围为-10000至10000 请重新输入" )
 </script>
 <script id="ch0103/04">
-  alert("我能显示商和余数")
+  // alert("我能显示商和余数")
 
   var 被除数 = parseInt(prompt("被除数: "))
   var 除数 = parseInt(prompt("除数: "))
@@ -41,7 +41,7 @@
   console.log("商 :", parseInt(被除数 / 除数) , "余数" ,被除数 % 除数)
 </script>
 <script id="ch0103/05">
-  alert("我能显示9位小数")
+  // alert("我能显示9位小数")
 
   var a = Number(prompt("a:","1 2 3 4 5 ......")) 
   var b = Number(prompt("b:","1 2 3 4 5 ......"))
@@ -49,7 +49,7 @@
   console.log((a / b).toFixed(9))
 </script>
 <script id="ch0103/06">
-  alert("甲流疫情死亡率计算")
+  // alert("甲流疫情死亡率计算")
   var 确诊数 = Number(prompt("确诊数 : "),"1 2 3 4 5 6 ......")
   var 死亡数 = Number(prompt("死亡数 : "),"1 2 3 4 5 6 ......")
 
@@ -57,8 +57,8 @@
 
 </script>
 <script id="ch0103/07">
-  alert("多项式的计算")
-  confirm("你想要算算么?")
+  // alert("多项式的计算")
+  // confirm("你想要算算么?")
   
   var x = +prompt("x : " , "1, 2, 3, 4, 5 ......")
   var a = +prompt("a : " , "1, 2, 3, 4, 5 ......")
@@ -69,26 +69,26 @@
   console.log((a * (x ** 3) + b * (x ** 2) + c * x + d).toFixed(7) )
 </script>
 <script id="ch0103/08">
-  alert("这是个温度转换计")
+  // alert("这是个温度转换计")
 
-  confirm("你想要试试么?")
+  // confirm("你想要试试么?")
 
   var f = Number(prompt("f : " , "请在此输入华氏摄氏度"))
 
   console.log(((5 * (f - 32)) / 9).toFixed(5))
 </script>
 <script id="ch0103/09">
-  alert("我能求圆的直径、周长与面积")
+  // alert("我能求圆的直径、周长与面积")
 
-  confirm("Are you ready ?")
+  // confirm("Are you ready ?")
 
   var r = +prompt("r:" , "请在此输入圆的半径")
   var π = 3.1415926
   console.log(("直径: ", 2 * r).toFixed(4),( "周长: ", 2 * π * r).toFixed(4),( "面积: ", π * r * r ).toFixed(4))
 </script>
 <script id="ch0103/10">
-  alert("计算并联电阻的阻值")
-  confirm("hhhhhhhhh")
+  // alert("计算并联电阻的阻值")
+  // confirm("hhhhhhhhh")
 
   var r1 = Number(prompt("ri的电阻: ", "1  2  3  4  5"))
   var r2 = Number(prompt("r2的电阻: ", "1  2  3  4  5"))
@@ -96,8 +96,8 @@
   console.log((1 / (1 / r1 + 1 / r2)).toFixed(2))
 </script>
 <script id="ch0103/11">
-  alert("计算浮点数相除的余数")
-  confirm("你算不算 不算我走了")
+  // alert("计算浮点数相除的余数")
+  // confirm("你算不算 不算我走了")
 
   var a = +prompt("a : ")
   var b = +prompt("b : ")
@@ -105,8 +105,8 @@
   console.log((a % b).toFixed(4))
 </script>
 <script id="ch0103/12">
-  alert("计算球的体积")
-  confirm("你算个球算")
+  // alert("计算球的体积")
+  // confirm("你算个球算")
 
   var r = +prompt("球的半径 : ")
   var π = 3.14
@@ -114,8 +114,8 @@
   console.log("球的体积为: ", (4 / 3 * π * r ** 3).toFixed(2))
 </script>
 <script id="ch0103/13">
-  alert("反向输出一个三位数")
-  confirm("都起开 看我操作")
+  // alert("反向输出一个三位数")
+  // confirm("都起开 看我操作")
   
   var x = +prompt("三位数")
 
