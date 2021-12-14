@@ -78,19 +78,54 @@
   console.log(((5 * (f - 32)) / 9).toFixed(5))
 </script>
 <script id="ch0103/09">
+  alert("我能求圆的直径、周长与面积")
 
+  confirm("Are you ready ?")
+
+  var r = +prompt("r:" , "请在此输入圆的半径")
+  var π = 3.1415926
+  console.log(("直径: ", 2 * r).toFixed(4),( "周长: ", 2 * π * r).toFixed(4),( "面积: ", π * r * r ).toFixed(4))
 </script>
 <script id="ch0103/10">
+  alert("计算并联电阻的阻值")
+  confirm("hhhhhhhhh")
 
+  var r1 = Number(prompt("ri的电阻: ", "1  2  3  4  5"))
+  var r2 = Number(prompt("r2的电阻: ", "1  2  3  4  5"))
+
+  console.log((1 / (1 / r1 + 1 / r2)).toFixed(2))
 </script>
 <script id="ch0103/11">
+  alert("计算浮点数相除的余数")
+  confirm("你算不算 不算我走了")
 
+  var a = +prompt("a : ")
+  var b = +prompt("b : ")
+
+  console.log((a % b).toFixed(4))
 </script>
 <script id="ch0103/12">
+  alert("计算球的体积")
+  confirm("你算个球算")
 
+  var r = +prompt("球的半径 : ")
+  var π = 3.14
+
+  console.log("球的体积为: ", (4 / 3 * π * r ** 3).toFixed(2))
 </script>
 <script id="ch0103/13">
+  alert("反向输出一个三位数")
+  confirm("都起开 看我操作")
+  
+  var a = +prompt("百位: ")
+  var b = +prompt("十位: ")
+  var c = +prompt("个位: ")
 
+  // var x = c
+  // var y = b
+  // var z = a
+  
+  console.log(c,b,a)
 </script>
 <script id="ch0103/14">
 
