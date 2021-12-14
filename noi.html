@@ -117,15 +117,18 @@
   alert("反向输出一个三位数")
   confirm("都起开 看我操作")
   
-  var a = +prompt("百位: ")
-  var b = +prompt("十位: ")
-  var c = +prompt("个位: ")
+  var x = +prompt("三位数")
 
-  // var x = c
-  // var y = b
-  // var z = a
-  
-  console.log(c,b,a)
+  var a = parseInt(x / 100)
+  var b = (parseInt(x / 10)) % 10
+  var c = x % 10
+
+  var q = (b == 0 ? "0" : b)
+  var s = (c == 0 ? "0" : c)
+
+  var z = c * 100 + b * 10 + a
+  var m = q + s + String(a)
+  console.log(q == "0" && s == "0" ? m : z)
 </script>
 <script id="ch0103/14">
 
