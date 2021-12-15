@@ -83,7 +83,7 @@
   // confirm("Are you ready ?")
 
   var r = +prompt("r:" , "请在此输入圆的半径")
-  var π = 3.1415926
+  var π = 3.141592653589793
   console.log(("直径: ", 2 * r).toFixed(4),( "周长: ", 2 * π * r).toFixed(4),( "面积: ", π * r * r ).toFixed(4))
 </script>
 <script id="ch0103/10">
@@ -131,19 +131,47 @@
   console.log(q == "0" && s == "0" ? m : z)
 </script>
 <script id="ch0103/14">
-
+  var h = +prompt("桶深: ")
+  var r = +prompt("半径: ")
+  var pi = 3.14159
+  console.log (Math.ceil(20000 / (pi * (r * r) * h) ))
 </script>
 <script id="ch0103/15">
-
+  var n = +prompt("共有苹果: ")
+  var x = +prompt("吃掉1个苹果时间: ")
+  var y = +prompt("眼睁睁看着苹果被吃了多少小时: ")
+  console.log (n - Math.ceil(y / x ))
 </script>
 <script id="ch0103/16">
+  var x1 = +prompt("x1: ") 
+  var y1 = +prompt("y1: ") 
+  var x2 = +prompt("x2: ") 
+  var y2 = +prompt("y1: ") 
 
+  console.log((Math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)).toFixed(3))
 </script>
 <script id="ch0103/17">
+var x1 = +prompt("x1: ")
+  var y1 = +prompt("y1: ")
+  var x2 = +prompt("x2: ")
+  var y2 = +prompt("y2: ")
+  var x3 = +prompt("x3: ")
+  var y3 = +prompt("y3: ")
 
+  var A = (Math.sqrt((x1 - x2) **2 + (y1 - y2) **2))
+  var B = (Math.sqrt((x1 - x3) **2 + (y1 - y3) **2))
+  var C = (Math.sqrt((x2 - x3) **2 + (y2 - y3) **2))
+  var p = (A + B +C) / 2
+  
+  console.log(Math.sqrt(p * ((p - A)*(p - B)*(p - C))))
 </script>
 <script id="ch0103/18">
+  var a1 = +prompt("a2: ")
+  var a2 = +prompt("a2: ")
+  var n = +prompt("n: ")
+  var d = a2 - a1
 
+  console.log( a1 + d * (n - 1))
 </script>
 <script id="ch0103/19">
 
