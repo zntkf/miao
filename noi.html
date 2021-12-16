@@ -433,13 +433,13 @@
   } 
 </script>
 <script id="ch0104/20">
-    var a = +prompt("a:")
+  var a = +prompt("a:")
   var b = +prompt("b:")
   var c = +prompt("c:")
-  var x1 = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a)
-  var x2 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a)
-  var 实部 = -b / (2 * a)
-  var 虚部 = (Math.sqrt(4 * a * c - b * b)) / (2 * a)
+  var x1 = ((-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a)).toFixed(5)
+  var x2 = ((-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a)).toFixed(5)
+  var 实部 = (-b / (2 * a)).toFixed(5)
+  var 虚部 = ((Math.sqrt(4 * a * c - b * b)) / (2 * a)).toFixed(5)
 
   if (b * b == 4 * a * c) {
     console.log("x1=x2=", x1)
@@ -451,7 +451,7 @@
         console.log("x1=", x2, "x2=", x1)
       } else {
         if (b * b < 4 * a * c) {
-          console.log("x1", 实部 + 虚部, "x2", 实部 - 虚部)
+          console.log("x1=", String(实部),"+" ,String(虚部),"i", "x2=", String(实部), "-", String(虚部),"i")
         }
       }
     }
