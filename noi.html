@@ -83,7 +83,7 @@
   // confirm("Are you ready ?")
 
   var r = +prompt("r:" , "请在此输入圆的半径")
-  var π = 3.141592653589793
+  var π = 3.14159
   console.log(("直径: ", 2 * r).toFixed(4),( "周长: ", 2 * π * r).toFixed(4),( "面积: ", π * r * r ).toFixed(4))
 </script>
 <script id="ch0103/10">
@@ -236,9 +236,9 @@
 <script id="ch0104/04">
   var x = prompt("字符 : ","请输入一个字符")
   if ((x.charCodeAt(0)) % 2 == 0) 
-    console.log("No");
+    console.log("NO");
   else if ((x.charCodeAt(0)) % 2 == 1) 
-    console.log("Yes");
+    console.log("YES");
 </script>
 <script id="ch0104/05">
   var x = prompt("x: ","请输入一个字符")
@@ -302,24 +302,27 @@
   }
 </script>
 <script id="ch0104/10">
-  var x = +prompt("x: ","请输入语文分数")
-  var y = +prompt("y: ","请输入数学分数")
+   var x = +prompt("x: ", "请输入语文分数")
+  var y = +prompt("y: ", "请输入数学分数")
 
   if (x >= 60 && y >= 60) {
     console.log(0)
-  } else if (`){
+  } else if (x < 60 && y >= 60) {
     console.log(1)
+  } else if (y < 60 && x >= 60) {
+    console.log(1) 
+  } else if (x < 60 && y < 60) {
+    console.log(2)
   }
-
 </script>
 <script id="ch0104/11">
   var x = +prompt("去看展览的日期: ","请输入去看展览的日期")
   // var y = prompt("y: ","请输入数学分数")
 
   if (x != 1 && x != 3 && x != 5) {
-    console.log("Yes")
+    console.log("YES")
   } else {
-    console.log("No")
+    console.log("NO")
   }
 </script>
 <script id="ch0104/12">
@@ -456,13 +459,13 @@
 </script>
 <script id="ch0104/21">
   var n = +prompt("挨炮: ", "请输入苹果个数")
-  var x = +prompt("x: ", "每几小时被吃个苹果")
+  var x = +prompt("x: ", "每几小时被吃1个苹果")
   var y = +prompt("y: ", "被吃了几个小时")
 
   
-  if (parseInt(n - x * y) >= 0) {
-      console.log(parseInt(n - x * y))
-  } else  {
+  if (n - Math.ceil(y / x) >= 0) {
+    console.log(n - Math.ceil(y / x))
+  } else if (n - Math.ceil(y / x) < 0) {
     console.log(0)
   }
 </script>
