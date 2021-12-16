@@ -168,12 +168,12 @@
   var x3 = +prompt("x3: ")
   var y3 = +prompt("y3: ")
 
-  var A = (Math.sqrt((x1 - x2) **2 + (y1 - y2) **2))
-  var B = (Math.sqrt((x1 - x3) **2 + (y1 - y3) **2))
-  var C = (Math.sqrt((x2 - x3) **2 + (y2 - y3) **2))
-  var p = (A + B +C) / 2
+  var A = (Math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2))
+  var B = (Math.sqrt((x1 - x3) ** 2 + (y1 - y3) ** 2))
+  var C = (Math.sqrt((x2 - x3) ** 2 + (y2 - y3) ** 2))
+  var p = (A + B + C) / 2
   
-  console.log(Math.sqrt(p * ((p - A)*(p - B)*(p - C))))
+  console.log((Math.sqrt(p * ((p - A) * (p - B) * (p - C)))).toFixed(2))
 </script>
 <script id="ch0103/18">
   var a1 = +prompt("a2: ")
@@ -246,14 +246,14 @@
   
   if(x > y) {
     console.log(">")
-  } else  if(x = y) {
+  } else  if(x == y) {
       console.log("=")
   } else  if(x < y) {
       console.log("<")
   }
 </script>
 <script id="ch0104/06">
-  var x = prompt("x: ","请输入一个不超过一千的整数")
+  var x = +prompt("x: ","请输入一个不超过一千的整数")
   
   if (x >= 10 && x <= 99) {
     console.log(1)
@@ -275,9 +275,9 @@
   var n = +prompt("n: ","请输入1个整数")
   
   if ((Math.abs(n) % 3 == 0) && (Math.abs(n) % 5 == 0)) {
-    console.log("Yes")
+    console.log("YES")
   } else {
-    console.log("No")
+    console.log("NO")
   }
 </script>
 <script id="ch0104/09">
@@ -305,9 +305,12 @@
   var x = +prompt("x: ","请输入语文分数")
   var y = +prompt("y: ","请输入数学分数")
 
-  if (x >= 60 & y >= 60) {
+  if (x >= 60 && y >= 60) {
     console.log(0)
-  } else console.log(1)
+  } else if (`){
+    console.log(1)
+  }
+
 </script>
 <script id="ch0104/11">
   var x = +prompt("去看展览的日期: ","请输入去看展览的日期")
