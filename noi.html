@@ -520,7 +520,7 @@
   var n = +prompt("学生数量")
   var c = 0 //循环次数
   var value = 0
-  var max = 0
+  var max = -Infinity
   while(n - c != 0) {
   var value = +prompt("分数")
     if(max <= value) {
@@ -533,8 +533,8 @@
 <script id="ch0105/06">
   var n = +prompt("序列的个数n")
   var counter = 0 //循环次数
-  var max = 0
-  var min = 1000
+  var max = -Infinity
+  var min = Infinity
   while(n - counter != 0) {
   var value = +prompt("分数")
     if(max <= value) {
@@ -578,28 +578,123 @@
   console.log(innerCornerAnd - disadvantage)
 </script>
 <script id="ch0105/09">
-   
+  var m = +prompt("m:")
+  var n = +prompt("n:")
+  var a = 0 
+
+  while(m <= n) {
+    if (m % 2 == 1){
+      a = m + a
+    }
+    m = m + 1
+  }
+  console.log(a)
 </script>
 <script id="ch0105/10">
+  var m = +prompt("m:")
+  var n = +prompt("n:")
+  var a = 0 
 
+  while(m <= n) {
+    if (m % 17 == 0){
+      a = m + a
+    }
+    m = m + 1
+  }
+  console.log(a)
 </script>
 <script id="ch0105/11">
-
+  var k = +prompt("k:" ,"出现的次数k")
+  var counter = 0 
+  var a = 0
+  var b = 0
+  var c = 0
+  while(k - counter != 0) {
+    var x = +prompt("x:" , "输入数值")
+    if (10 - x == 0){
+      a=a+1
+    }
+    if (5 - x == 0){
+      b=b+1
+    }
+    if (1 - x == 0){
+      c=c+1
+    }
+    counter=counter+1
+  }
+  console.log(a)
+  console.log(b)
+  console.log(c)
 </script>
 <script id="ch0105/12">
-
+  var n = +prompt("n:" ,"整数序列的长度")
+  var m = +prompt("m:" ,"指定的数")
+  var counter = 0 
+  var a = 0
+  var b = 0
+  var c = 0
+  while(n - counter != 0) {
+    var x = +prompt("x:" ,"输入的数值数")
+    if (m - x == 0) {
+      a=a+1
+    }
+    counter = counter + 1
+  }
+  console.log(a)
 </script>
 <script id="ch0105/13">
-
+  var a = +prompt("a:" ,"整数a")
+  var n = +prompt("n:" ,"a的n次方")
+  var counter = 0 
+  var x = 1
+ 
+  while(n - counter != 0) {
+    if(n != 1) {
+      x = x * a
+    }
+    counter = counter + 1
+  }
+  console.log(x)
 </script>
 <script id="ch0105/14">
-
+  var x = +prompt("x:", "人口基数")
+  var n = +prompt("n:", "年数")
+  var counter = 0 
+ 
+  while(n - counter != 0) {
+    x = x + 0.001 * x
+    counter = counter + 1
+  }
+  console.log(x.toFixed(4))
 </script>
 <script id="ch0105/15">
+  var r = +prompt("r:", "复合年利率为R%")
+  var m = +prompt("m:", "总值为M的钱")
+  var y = +prompt("y:", "自己要投资Y年")
+  var counter = 0 
 
+  while(y - counter != 0) {
+    m = m + m * (0.01*r)
+    counter = counter + 1
+  }
+  console.log(parseInt(m))
 </script>
 <script id="ch0105/16">
-
+  var n = +prompt("n:", "第一年年薪N万")
+  var k = +prompt("k:", "房子价格以每年百分之K增长")
+  var a = 200 
+  var counter = 1 
+  var x = 0
+  while(x < a) {
+    a = a + 200 * (0.01 * k)
+    x = x + n
+    counter = counter + 1
+  }
+  if (counter <= 20) {
+    console.log(counter)
+  } else if (counter > 20) {
+    console.log("Impossible")
+  }
 </script>
 <script id="ch0105/17">
 
