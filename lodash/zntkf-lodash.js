@@ -3,23 +3,23 @@ var zntkf = function () {
 
 
 
-  function chunk() {
+  function chunk(array, size = 1) {
    
   }
 
 
-  function compact() {
+  function compact(array) {
    
   }
 
 
-  function difference() {
+  function difference(array, size = 1) {
 
   }
-  function differenceBy() {
+  function differenceBy(array, size = 1) {
 
   }
-  function differenceWith() {
+  function differenceWith(array, size = 1) {
 
   }
 
@@ -28,817 +28,817 @@ var zntkf = function () {
   }
 
 
-  function dropRight() {
+  function dropRight(array, n = 1) {
     
   }
 
 
 
 
-  function dropRightWhile() {
+  function dropRightWhile(array, size = 1) {
 
   }
-  function dropWhile() {
+  function dropWhile(array, size = 1) {
 
   }
-  function fill() {
+  function fill(array, size = 1) {
 
   }
-  function findIndex() {
+  function findIndex(array, size = 1) {
 
   }
-  function indLastIndex() {
+  function indLastIndex(array, size = 1) {
 
   }
-  function findLastIndex() {
+  function findLastIndex(array, size = 1) {
 
   }
 
 
 
-  function flatten() {
+  function flatten(array) {
    
   }
 
 
-  function flattenDeep() {
+  function flattenDeep(array) {
   
   }
 
 
 
-  function flattenDepth() {
+  function flattenDepth(array, depth = 1) {
     
   }
 
 
-  function fromPairs() {
+  function fromPairs(pairs) {
    
   }
 
 
 
-  function head() {
+  function head(array) {
     
   }
 
 
 
-  function indexOf() {
+  function indexOf(array, value, ) {
    
   }
 
 
-  function initial() {
+  function initial(array) {
    
   }
 
 
-  function intersection() {
+  function intersection(array, size = 1) {
 
   }
-  function intersectionBy() {
+  function intersectionBy(array, size = 1) {
 
   }
-  function intersectionWith() {
+  function intersectionWith(array, size = 1) {
 
   }
 
 
 
-  function join() {
+  function join(array, separator) {
   
   }
 
 
 
-  function last() {
+  function last(array) {
    
   }
 
 
-  function lastIndexOf() {
-    fo
+  function lastIndexOf(array, val,) {
+    
   }
 
 
-  function nth() {
+  function nth(array, size = 1) {
 
   }
 
-  function pull() {
+  function pull(array, size = 1) {
 
   }
-  function pullAll() {
+  function pullAll(array, size = 1) {
 
   }
-  function pullAllBy() {
+  function pullAllBy(array, size = 1) {
 
   }
-  function pullAllWith() {
+  function pullAllWith(array, size = 1) {
 
   }
-  function remove() {
+  function remove(array, size = 1) {
 
   }
 
 
 
-  function reverse() {
+  function reverse(array) {
     
   }
 
 
 
 
-  function slice() {
+  function slice(array, size = 1) {
 
   }
-  function sortedIndex() {
+  function sortedIndex(array, size = 1) {
 
   }
-  function sortedIndexBy() {
+  function sortedIndexBy(array, size = 1) {
 
   }
-  function sortedIndexOf() {
+  function sortedIndexOf(array, size = 1) {
 
   }
-  function sortedLastIndex() {
+  function sortedLastIndex(array, size = 1) {
 
   }
-  function sortedLastIndexBy() {
+  function sortedLastIndexBy(array, size = 1) {
 
   }
-  function sortedLastIndexOf() {
+  function sortedLastIndexOf(array, size = 1) {
 
   }
-  function sortedUniq() {
+  function sortedUniq(array, size = 1) {
 
   }
-  function sortedUniqBy() {
+  function sortedUniqBy(array, size = 1) {
 
   }
-  function tail() {
+  function tail(array, size = 1) {
 
   }
-  function take() {
+  function take(array, size = 1) {
 
   }
-  function takeRight() {
+  function takeRight(array, size = 1) {
 
   }
-  function takeRightWhile() {
+  function takeRightWhile(array, size = 1) {
 
   }
-  function takeWhile() {
+  function takeWhile(array, size = 1) {
 
   }
-  function union() {
+  function union(array, size = 1) {
 
   }
-  function unionBy() {
+  function unionBy(array, size = 1) {
 
   }
-  function unionWith() {
+  function unionWith(array, size = 1) {
 
   }
-  function uniqWith() {
+  function uniqWith(array, size = 1) {
 
   }
-  function uniq() {
+  function uniq(array, size = 1) {
 
   }
-  function uniqBy() {
+  function uniqBy(array, size = 1) {
 
   }
-  function unzip() {
+  function unzip(array, size = 1) {
 
   }
-  function unzipWith() {
+  function unzipWith(array, size = 1) {
 
   }
 
 
-  function without() {
+  function without(array, ...values) {
    
   }
 
 
-  function xor() {
+  function xor(array, size = 1) {
 
   }
-  function xorBy() {
+  function xorBy(array, size = 1) {
 
   }
-  function xorWith() {
+  function xorWith(array, size = 1) {
 
   }
-  function zipObject() {
+  function zipObject(array, size = 1) {
 
   }
-  function zipObjectDeep() {
+  function zipObjectDeep(array, size = 1) {
 
   }
-  function zipWith() {
+  function zipWith(array, size = 1) {
 
   }
-  function zip() {
+  function zip(array, size = 1) {
 
   }
-  function countBy() {
+  function countBy(array, size = 1) {
 
   }
-  function every() {
+  function every(array, size = 1) {
 
   }
-  function filter() {
+  function filter(array, size = 1) {
 
   }
-  function find() {
+  function find(array, size = 1) {
 
   }
-  function findLast() {
+  function findLast(array, size = 1) {
 
   }
-  function flatMap() {
+  function flatMap(array, size = 1) {
 
   }
-  function flatMapDeep() {
+  function flatMapDeep(array, size = 1) {
 
   }
-  function flatMapDepth() {
+  function flatMapDepth(array, size = 1) {
 
   }
-  function forEach() {
+  function forEach(array, size = 1) {
 
   }
-  function forEachRight() {
+  function forEachRight(array, size = 1) {
 
   }
-  function groupBy() {
+  function groupBy(array, size = 1) {
 
   }
-  function includes() {
+  function includes(array, size = 1) {
 
   }
-  function invokeMap() {
+  function invokeMap(array, size = 1) {
 
   }
-  function keyBy() {
+  function keyBy(array, size = 1) {
 
   }
-  function map() {
+  function map(array, size = 1) {
 
   }
-  function orderBy() {
+  function orderBy(array, size = 1) {
 
   }
-  function partition() {
+  function partition(array, size = 1) {
 
   }
-  function reduce() {
+  function reduce(array, size = 1) {
 
   }
-  function reduceRight() {
+  function reduceRight(array, size = 1) {
 
   }
-  function reject() {
+  function reject(array, size = 1) {
 
   }
-  function sample() {
+  function sample(array, size = 1) {
 
   }
-  function sampleSize() {
+  function sampleSize(array, size = 1) {
 
   }
-  function shuffle() {
+  function shuffle(array, size = 1) {
 
   }
-  function size() {
+  function size(array, size = 1) {
 
   }
-  function some() {
+  function some(array, size = 1) {
 
   }
-  function sortBy() {
+  function sortBy(array, size = 1) {
 
   }
-  function defer() {
+  function defer(array, size = 1) {
 
   }
-  function delay() {
+  function delay(array, size = 1) {
 
   }
-  function castArray() {
+  function castArray(array, size = 1) {
 
   }
-  function conformsTo() {
+  function conformsTo(array, size = 1) {
 
   }
-  function eq() {
+  function eq(array, size = 1) {
 
   }
-  function gt() {
+  function gt(array, size = 1) {
 
   }
-  function gte() {
+  function gte(array, size = 1) {
 
   }
-  function isArguments() {
+  function isArguments(array, size = 1) {
 
   }
-  function isArray() {
+  function isArray(array, size = 1) {
 
   }
-  function isArrayBuffer() {
+  function isArrayBuffer(array, size = 1) {
 
   }
 
-  function isArrayLike() {
+  function isArrayLike(array, size = 1) {
 
   }
-  function isArrayLikeObject() {
+  function isArrayLikeObject(array, size = 1) {
 
   }
-  function isBoolean() {
+  function isBoolean(array, size = 1) {
 
   }
-  function isBoolean() {
+  function isBoolean(array, size = 1) {
 
   }
-  function isDate() {
+  function isDate(array, size = 1) {
 
   }
-  function isElement() {
+  function isElement(array, size = 1) {
 
   }
 
-  function isEmpty() {
+  function isEmpty(array, size = 1) {
 
   }
-  function isEqual() {
+  function isEqual(array, size = 1) {
 
   }
-  function isEqualWith() {
+  function isEqualWith(array, size = 1) {
 
   }
-  function isError() {
+  function isError(array, size = 1) {
 
   }
-  function isFunction() {
+  function isFunction(array, size = 1) {
 
   }
-  function isInteger() {
+  function isInteger(array, size = 1) {
 
   }
-  function isLength() {
+  function isLength(array, size = 1) {
 
   }
-  function isMap() {
+  function isMap(array, size = 1) {
 
   }
-  function isMatch() {
+  function isMatch(array, size = 1) {
 
   }
-  function isMatchWith() {
+  function isMatchWith(array, size = 1) {
 
   }
-  function isNaN() {
+  function isNaN(array, size = 1) {
 
   }
 
-  function isNil() {
+  function isNil(array, size = 1) {
 
   }
-  function isNative() {
+  function isNative(array, size = 1) {
 
   }
-  function isNull() {
+  function isNull(array, size = 1) {
 
   }
-  function isNumber() {
+  function isNumber(array, size = 1) {
 
   }
-  function isObject() {
+  function isObject(array, size = 1) {
 
   }
-  function isObjectLike() {
+  function isObjectLike(array, size = 1) {
 
   }
-  function isPlainObject() {
+  function isPlainObject(array, size = 1) {
 
   }
 
-  function isRegExp() {
+  function isRegExp(array, size = 1) {
 
   }
-  function isSafeInteger() {
+  function isSafeInteger(array, size = 1) {
 
   }
-  function isSet() {
+  function isSet(array, size = 1) {
 
   }
-  function isString() {
+  function isString(array, size = 1) {
 
   }
-  function isSymbol() {
+  function isSymbol(array, size = 1) {
 
   }
-  function isTypedArray() {
+  function isTypedArray(array, size = 1) {
 
   }
-  function isUndefined() {
+  function isUndefined(array, size = 1) {
 
   }
-  function isWeakMap() {
+  function isWeakMap(array, size = 1) {
 
   }
-  function isWeakSet() {
+  function isWeakSet(array, size = 1) {
 
   }
-  function lt() {
+  function lt(array, size = 1) {
 
   }
-  function lte() {
+  function lte(array, size = 1) {
 
   }
-  function toArray() {
+  function toArray(array, size = 1) {
 
   }
-  function toFinite() {
+  function toFinite(array, size = 1) {
 
   }
 
-  function toInteger() {
+  function toInteger(array, size = 1) {
 
   }
-  function toLength() {
+  function toLength(array, size = 1) {
 
   }
-  function toNumber() {
+  function toNumber(array, size = 1) {
 
   }
-  function assign() {
+  function assign(array, size = 1) {
 
   }
-  function toSafeInteger() {
+  function toSafeInteger(array, size = 1) {
 
   }
-  function add() {
+  function add(array, size = 1) {
 
   }
 
-  function ceil() {
+  function ceil(array, size = 1) {
 
   }
-  function divide() {
+  function divide(array, size = 1) {
 
   }
-  function floor() {
+  function floor(array, size = 1) {
 
   }
-  function max() {
+  function max(array, size = 1) {
 
   }
-  function maxBy() {
+  function maxBy(array, size = 1) {
 
   }
-  function mean() {
+  function mean(array, size = 1) {
 
   }
-  function meanBy() {
+  function meanBy(array, size = 1) {
 
   }
 
-  function min() {
+  function min(array, size = 1) {
 
   }
-  function minBy() {
+  function minBy(array, size = 1) {
 
   }
-  function multiply() {
+  function multiply(array, size = 1) {
 
   }
-  function round() {
+  function round(array, size = 1) {
 
   }
-  function subtract() {
+  function subtract(array, size = 1) {
 
   }
 
 
 
-  function sumBy() {
+  function sumBy(array, size = 1) {
 
   }
-  function sum() {
+  function sum(array, size = 1) {
 
   }
-  function clamp() {
+  function clamp(array, size = 1) {
 
   }
-  function inRange() {
+  function inRange(array, size = 1) {
 
   }
-  function random() {
+  function random(array, size = 1) {
 
   }
-  function assignIn() {
+  function assignIn(array, size = 1) {
 
   }
-  function at() {
+  function at(array, size = 1) {
 
   }
-  function defaults() {
+  function defaults(array, size = 1) {
 
   }
-  function defaultsDeep() {
+  function defaultsDeep(array, size = 1) {
 
   }
-  function findKey() {
+  function findKey(array, size = 1) {
 
   }
-  function findLastKey() {
+  function findLastKey(array, size = 1) {
 
   }
-  function forIn() {
+  function forIn(array, size = 1) {
 
   }
-  function forInRight() {
+  function forInRight(array, size = 1) {
 
   }
-  function forOwn() {
+  function forOwn(array, size = 1) {
 
   }
-  function forOwnRight() {
+  function forOwnRight(array, size = 1) {
 
   }
-  function functions() {
+  function functions(array, size = 1) {
 
   }
-  function functionsIn() {
+  function functionsIn(array, size = 1) {
 
   }
-  function get() {
+  function get(array, size = 1) {
 
   }
-  function has() {
+  function has(array, size = 1) {
 
   }
-  function hasIn() {
+  function hasIn(array, size = 1) {
 
   }
-  function invert() {
+  function invert(array, size = 1) {
 
   }
-  function invertBy() {
+  function invertBy(array, size = 1) {
 
   }
-  function keys() {
+  function keys(array, size = 1) {
 
   }
-  function keysIn() {
+  function keysIn(array, size = 1) {
 
   }
-  function mapKeys() {
+  function mapKeys(array, size = 1) {
 
   }
-  function mapValues() {
+  function mapValues(array, size = 1) {
 
   }
-  function merge() {
+  function merge(array, size = 1) {
 
   }
 
-  function mergeWith() {
+  function mergeWith(array, size = 1) {
 
   }
-  function omit() {
+  function omit(array, size = 1) {
 
   }
-  function omitBy() {
+  function omitBy(array, size = 1) {
 
   }
 
-  function pick() {
+  function pick(array, size = 1) {
 
   }
-  function pickBy() {
+  function pickBy(array, size = 1) {
 
   }
-  function result() {
+  function result(array, size = 1) {
 
   }
-  function set() {
+  function set(array, size = 1) {
 
   }
-  function setWith() {
+  function setWith(array, size = 1) {
 
   }
-  function toPairs() {
+  function toPairs(array, size = 1) {
 
   }
-  function toPairsIn() {
+  function toPairsIn(array, size = 1) {
 
   }
-  function transform() {
+  function transform(array, size = 1) {
 
   }
-  function unset() {
+  function unset(array, size = 1) {
 
   }
-  function update() {
+  function update(array, size = 1) {
 
   }
-  function updateWith() {
+  function updateWith(array, size = 1) {
 
   }
-  function values() {
+  function values(array, size = 1) {
 
   }
-  function valuesIn() {
+  function valuesIn(array, size = 1) {
 
   }
-  function camelCase() {
+  function camelCase(array, size = 1) {
 
   }
 
-  function capitalize() {
+  function capitalize(array, size = 1) {
 
   }
-  function deburr() {
+  function deburr(array, size = 1) {
 
   }
-  function endsWith() {
+  function endsWith(array, size = 1) {
 
   }
-  function deburr() {
+  function deburr(array, size = 1) {
 
   }
-  function escape() {
+  function escape(array, size = 1) {
 
   }
-  function escapeRegExp() {
+  function escapeRegExp(array, size = 1) {
 
   }
-  function kebabCase() {
+  function kebabCase(array, size = 1) {
 
   }
-  function lowerCase() {
+  function lowerCase(array, size = 1) {
 
   }
-  function pad() {
+  function pad(array, size = 1) {
 
   }
-  function padEnd() {
+  function padEnd(array, size = 1) {
 
   }
-  function padStart() {
+  function padStart(array, size = 1) {
 
   }
 
-  function repeat() {
+  function repeat(array, size = 1) {
 
   }
-  function replace() {
+  function replace(array, size = 1) {
 
   }
-  function snakeCase() {
+  function snakeCase(array, size = 1) {
 
   }
-  function split() {
+  function split(array, size = 1) {
 
   }
-  function startCase() {
+  function startCase(array, size = 1) {
 
   }
-  function startsWith() {
+  function startsWith(array, size = 1) {
 
   }
-  function toLower() {
+  function toLower(array, size = 1) {
 
   }
-  function toUpper() {
+  function toUpper(array, size = 1) {
 
   }
-  function trim() {
+  function trim(array, size = 1) {
 
   }
-  function trimEnd() {
+  function trimEnd(array, size = 1) {
 
   }
-  function trimStart() {
+  function trimStart(array, size = 1) {
 
   }
-  function truncate() {
+  function truncate(array, size = 1) {
 
   }
-  function unescape() {
+  function unescape(array, size = 1) {
 
   }
-  function upperCase() {
+  function upperCase(array, size = 1) {
 
   }
-  function upperFirst() {
+  function upperFirst(array, size = 1) {
 
   }
-  function words() {
+  function words(array, size = 1) {
 
   }
-  function bindAll() {
+  function bindAll(array, size = 1) {
 
   }
-  function defaultTo() {
+  function defaultTo(array, size = 1) {
 
   }
-  function range() {
+  function range(array, size = 1) {
 
   }
-  function rangeRight() {
+  function rangeRight(array, size = 1) {
 
   }
-  function mixin() {
+  function mixin(array, size = 1) {
 
   }
-  function times() {
+  function times(array, size = 1) {
 
   }
-  function toPath() {
+  function toPath(array, size = 1) {
 
   }
-  function uniqueId() {
+  function uniqueId(array, size = 1) {
 
   }
-  function cloneDeep() {
+  function cloneDeep(array, size = 1) {
 
   }
-  function uniqueId() {
+  function uniqueId(array, size = 1) {
 
   }
-  function identity() {
+  function identity(array, size = 1) {
 
   }
-  function concat() {
+  function concat(array, size = 1) {
 
   }
-  function pullAt() {
+  function pullAt(array, size = 1) {
 
   }
-  function matches() {
+  function matches(array, size = 1) {
 
   }
-  function property() {
+  function property(array, size = 1) {
 
   }
-  function ary() {
+  function ary(array, size = 1) {
 
   }
-  function unary() {
+  function unary(array, size = 1) {
 
   }
-  function negate() {
+  function negate(array, size = 1) {
 
   }
-  function once() {
+  function once(array, size = 1) {
 
   }
-  function spread() {
+  function spread(array, size = 1) {
 
   }
-  function curry() {
+  function curry(array, size = 1) {
 
   }
-  function memoize() {
+  function memoize(array, size = 1) {
 
   }
-  function flip() {
+  function flip(array, size = 1) {
 
   }
-  function conforms() {
+  function conforms(array, size = 1) {
 
   }
-  function constant() {
+  function constant(array, size = 1) {
 
   }
-  function flow() {
+  function flow(array, size = 1) {
 
   }
-  function method() {
+  function method(array, size = 1) {
 
   }
-  function methodOf() {
+  function methodOf(array, size = 1) {
 
   }
-  function nthArg() {
+  function nthArg(array, size = 1) {
 
   }
-  function propertyOf() {
+  function propertyOf(array, size = 1) {
 
   }
-  function parseJson() {
+  function parseJson(array, size = 1) {
 
   }
-  function stringifyJson() {
+  function stringifyJson(array, size = 1) {
 
   }
 
@@ -847,264 +847,263 @@ var zntkf = function () {
 
 
 
-  // return {
-  //   chunk: chunk,
-  //   compact: compact,
-  //   difference: difference,
-  //   differenceBy: differenceBy,
-  //   differenceWith: differenceWith,
-  //   drop: drop,
-  //   dropRight: dropRight,
-  //   dropRightWhile: dropRightWhile,
-  //   dropWhile: dropWhile,
-  //   fill: fill,
-  //   findIndex: findIndex,
-  //   findLastIndex: findLastIndex,
-  //   indLastIndex: indLastIndex,
-  //   flatten: flatten,
-  //   flattenDeep: flattenDeep,
-  //   flattenDepth: flattenDepth,
-  //   fromPairs: fromPairs,
-  //   head: head,
-  //   indexOf: indexOf,
-  //   initial: initial,
-  //   intersection: intersection,
-  //   intersectionBy: intersectionBy,
-  //   intersectionWith: intersectionWith,
-  //   join: join,
-  //   last: last,
-  //   lastIndexOf: lastIndexOf,
-  //   nth: nth,
-  //   pull: pull,
-  //   pullAll: pullAll,
-  //   pullAllBy: pullAllBy,
-  //   pullAllWith: pullAllWith,
-  //   remove: remove,
-  //   reverse: reverse,
-  //   slice: slice,
-  //   sortedIndex: sortedIndex,
-  //   sortedIndexBy: sortedIndexBy,
-  //   sortedIndexOf: sortedIndexOf,
-  //   sortedLastIndex: sortedLastIndex,
-  //   sortedLastIndexBy: sortedLastIndexBy,
-  //   sortedLastIndexOf: sortedLastIndexOf,
-  //   sortedUniq: sortedUniq,
-  //   sortedUniqBy: sortedUniqBy,
-  //   tail: tail,
-  //   take: take,
-  //   takeRight: takeRight,
-  //   takeRightWhile: takeRightWhile,
-  //   takeWhile: takeWhile,
-  //   union: union,
-  //   unionBy: unionBy,
-  //   unionWith: unionWith,
-  //   uniq: uniq,
-  //   uniqBy: uniqBy,
-  //   uniqWith: uniqWith,
-  //   unzip: unzip,
-  //   unzipWith: unzipWith,
-  //   without: without,
-  //   xor: xor,
-  //   xorBy: xorBy,
-  //   xorWith: xorWith,
-  //   zipObject: zipObject,
-  //   zipObjectDeep: zipObjectDeep,
-  //   zipWith: zipWith,
-  //   zip: zip,
-  //   countBy: countBy,
-  //   every: every,
-  //   filter: filter,
-  //   find: find,
-  //   findLast: findLast,
-  //   flatMap: flatMap,
-  //   flatMapDeep: flatMapDeep,
-  //   flatMapDepth: flatMapDepth,
-  //   forEach: forEach,
-  //   forEachRight: forEachRight,
-  //   groupBy: groupBy,
-  //   includes: includes,
-  //   invokeMap: invokeMap,
-  //   keyBy: keyBy,
-  //   map: map,
-  //   orderBy: orderBy,
-  //   partition: partition,
-  //   reduce: reduce,
-  //   reduceRight: reduceRight,
-  //   reject: reject,
-  //   sample: sample,
-  //   sampleSize: sampleSize,
-  //   shuffle: shuffle,
-  //   size: size,
-  //   some: some,
-  //   sortBy: sortBy,
-  //   defer: defer,
-  //   delay: delay,
-  //   castArray: castArray,
-  //   conformsTo: conformsTo,
-  //   eq: eq,
-  //   gt: gt,
-  //   gte: gte,
-  //   isArguments: isArguments,
-  //   isArray: isArray,
-  //   isArrayBuffer: isArrayBuffer,
-  //   isArrayLike: isArrayLike,
-  //   isArrayLikeObject: isArrayLikeObject,
-  //   isBoolean: isBoolean,
-  //   isDate: isDate,
-  //   isElement: isElement,
-  //   isEmpty: isEmpty,
-  //   isEqual: isEqual,
-  //   isEqualWith: isEqualWith,
-  //   isError: isError,
-  //   isFinite: isFinite,
-  //   isFunction: isFunction,
-  //   isInteger: isInteger,
-  //   isLength: isLength,
-  //   isMap: isMap,
-  //   isMatch: isMatch,
-  //   isMatchWith: isMatchWith,
-  //   isNaN: isNaN,
-  //   isNative: isNative,
-  //   isNil: isNil,
-  //   isNull: isNull,
-  //   isNumber: isNumber,
-  //   isObject: isObject,
-  //   isObjectLike: isObjectLike,
-  //   isPlainObject: isPlainObject,
-  //   isRegExp: isRegExp,
-  //   isSafeInteger: isSafeInteger,
-  //   isSet: isSet,
-  //   isString: isString,
-  //   isSymbol: isSymbol,
-  //   isTypedArray: isTypedArray,
-  //   isUndefined: isUndefined,
-  //   isWeakMap: isWeakMap,
-  //   isWeakSet: isWeakSet,
-  //   lt: lt,
-  //   lte: lte,
-  //   toArray: toArray,
-  //   toFinite: toFinite,
-  //   toInteger: toInteger,
-  //   toLength: toLength,
-  //   toNumber: toNumber,
-  //   assign: assign,
-  //   toSafeInteger: toSafeInteger,
-  //   add: add,
-  //   ceil: ceil,
-  //   divide: divide,
-  //   floor: floor,
-  //   max: max,
-  //   maxBy: maxBy,
-  //   mean: mean,
-  //   meanBy: meanBy,
-  //   min: meanBy,
-  //   minBy: minBy,
-  //   multiply: multiply,
-  //   round: round,
-  //   subtract: subtract,
-  //   sumBy: sumBy,
-  //   sum: sum,
-  //   clamp: clamp,
-  //   inRange: inRange,
-  //   random: random,
-  //   assignIn: assignIn,
-  //   at: at,
-  //   defaults: defaults,
-  //   defaultsDeep: defaultsDeep,
-  //   findKey: findKey,
-  //   findLastKey: findLastKey,
-  //   forIn: forIn,
-  //   forInRight: forInRight,
-  //   forOwn: forOwn,
-  //   forOwnRight: forOwnRight,
-  //   functions: functions,
-  //   functionsIn: functionsIn,
-  //   get: get,
-  //   has: has,
-  //   hasIn: hasIn,
-  //   invert: invert,
-  //   invertBy: invertBy,
-  //   keys: keys,
-  //   keysIn: keysIn,
-  //   mapKeys: mapKeys,
-  //   mapValues: mapValues,
-  //   merge: merge,
-  //   mergeWith: mergeWith,
-  //   omit: omit,
-  //   omitBy: omitBy,
-  //   pick: pick,
-  //   pickBy: pickBy,
-  //   result: result,
-  //   set: set,
-  //   setWith: setWith,
-  //   toPairs: toPairs,
-  //   toPairsIn: toPairsIn,
-  //   transform: transform,
-  //   unset: unset,
-  //   update: update,
-  //   updateWith: updateWith,
-  //   values: values,
-  //   valuesIn: valuesIn,
-  //   camelCase: camelCase,
-  //   capitalize: capitalize,
-  //   deburr: deburr,
-  //   endsWith: endsWith,
-  //   escape: escape,
-  //   escapeRegExp: escapeRegExp,
-  //   kebabCase: kebabCase,
-  //   lowerCase: lowerCase,
-  //   lowerFirst: lowerCase,
-  //   pad: pad,
-  //   padEnd: padEnd,
-  //   padStart: padStart,
-  //   parseInt: parseInt,
-  //   repeat: repeat,
-  //   replace: replace,
-  //   snakeCase: snakeCase,
-  //   split: split,
-  //   startCase: startCase,
-  //   startsWith: startsWith,
-  //   toLower: toLower,
-  //   toUpper: toUpper,
-  //   trim: trim,
-  //   trimEnd: trimEnd,
-  //   trimStart: trimStart,
-  //   truncate: truncate,
-  //   unescape: unescape,
-  //   upperCase: upperCase,
-  //   upperFirst: upperFirst,
-  //   words: words,
-  //   bindAll: bindAll,
-  //   defaultTo: defaultTo,
-  //   range: range,
-  //   rangeRight: rangeRight,
-  //   mixin: mixin,
-  //   times: times,
-  //   toPath: toPath,
-  //   uniqueId: uniqueId,
-  //   cloneDeep: cloneDeep,
-  //   identity: identity,
-  //   concat: concat,
-  //   pullAt: pullAt,
-  //   matches: matches,
-  //   property: property,
-  //   ary: ary,
-  //   unary: unary,
-  //   negate: negate,
-  //   once: once,
-  //   spread: spread,
-  //   curry: curry,
-  //   memoize: memoize,
-  //   flip: flip,
-  //   conforms: conforms,
-  //   constant: constant,
-  //   flow: flow,
-  //   method: method,
-  //   methodOf: methodOf,
-  //   nthArg: nthArg,
-  //   propertyOf: propertyOf,
-  //   parseJson: parseJson,
-  //   stringifyJson: stringifyJson,
-  //}
-  //()
-}
+  return {
+    chunk: chunk,
+    compact: compact,
+    difference: difference,
+    differenceBy: differenceBy,
+    differenceWith: differenceWith,
+    drop: drop,
+    dropRight: dropRight,
+    dropRightWhile: dropRightWhile,
+    dropWhile: dropWhile,
+    fill: fill,
+    findIndex: findIndex,
+    findLastIndex: findLastIndex,
+    indLastIndex: indLastIndex,
+    flatten: flatten,
+    flattenDeep: flattenDeep,
+    flattenDepth: flattenDepth,
+    fromPairs: fromPairs,
+    head: head,
+    indexOf: indexOf,
+    initial: initial,
+    intersection: intersection,
+    intersectionBy: intersectionBy,
+    intersectionWith: intersectionWith,
+    join: join,
+    last: last,
+    lastIndexOf: lastIndexOf,
+    nth: nth,
+    pull: pull,
+    pullAll: pullAll,
+    pullAllBy: pullAllBy,
+    pullAllWith: pullAllWith,
+    remove: remove,
+    reverse: reverse,
+    slice: slice,
+    sortedIndex: sortedIndex,
+    sortedIndexBy: sortedIndexBy,
+    sortedIndexOf: sortedIndexOf,
+    sortedLastIndex: sortedLastIndex,
+    sortedLastIndexBy: sortedLastIndexBy,
+    sortedLastIndexOf: sortedLastIndexOf,
+    sortedUniq: sortedUniq,
+    sortedUniqBy: sortedUniqBy,
+    tail: tail,
+    take: take,
+    takeRight: takeRight,
+    takeRightWhile: takeRightWhile,
+    takeWhile: takeWhile,
+    union: union,
+    unionBy: unionBy,
+    unionWith: unionWith,
+    uniq: uniq,
+    uniqBy: uniqBy,
+    uniqWith: uniqWith,
+    unzip: unzip,
+    unzipWith: unzipWith,
+    without: without,
+    xor: xor,
+    xorBy: xorBy,
+    xorWith: xorWith,
+    zipObject: zipObject,
+    zipObjectDeep: zipObjectDeep,
+    zipWith: zipWith,
+    zip: zip,
+    countBy: countBy,
+    every: every,
+    filter: filter,
+    find: find,
+    findLast: findLast,
+    flatMap: flatMap,
+    flatMapDeep: flatMapDeep,
+    flatMapDepth: flatMapDepth,
+    forEach: forEach,
+    forEachRight: forEachRight,
+    groupBy: groupBy,
+    includes: includes,
+    invokeMap: invokeMap,
+    keyBy: keyBy,
+    map: map,
+    orderBy: orderBy,
+    partition: partition,
+    reduce: reduce,
+    reduceRight: reduceRight,
+    reject: reject,
+    sample: sample,
+    sampleSize: sampleSize,
+    shuffle: shuffle,
+    size: size,
+    some: some,
+    sortBy: sortBy,
+    defer: defer,
+    delay: delay,
+    castArray: castArray,
+    conformsTo: conformsTo,
+    eq: eq,
+    gt: gt,
+    gte: gte,
+    isArguments: isArguments,
+    isArray: isArray,
+    isArrayBuffer: isArrayBuffer,
+    isArrayLike: isArrayLike,
+    isArrayLikeObject: isArrayLikeObject,
+    isBoolean: isBoolean,
+    isDate: isDate,
+    isElement: isElement,
+    isEmpty: isEmpty,
+    isEqual: isEqual,
+    isEqualWith: isEqualWith,
+    isError: isError,
+    isFinite: isFinite,
+    isFunction: isFunction,
+    isInteger: isInteger,
+    isLength: isLength,
+    isMap: isMap,
+    isMatch: isMatch,
+    isMatchWith: isMatchWith,
+    isNaN: isNaN,
+    isNative: isNative,
+    isNil: isNil,
+    isNull: isNull,
+    isNumber: isNumber,
+    isObject: isObject,
+    isObjectLike: isObjectLike,
+    isPlainObject: isPlainObject,
+    isRegExp: isRegExp,
+    isSafeInteger: isSafeInteger,
+    isSet: isSet,
+    isString: isString,
+    isSymbol: isSymbol,
+    isTypedArray: isTypedArray,
+    isUndefined: isUndefined,
+    isWeakMap: isWeakMap,
+    isWeakSet: isWeakSet,
+    lt: lt,
+    lte: lte,
+    toArray: toArray,
+    toFinite: toFinite,
+    toInteger: toInteger,
+    toLength: toLength,
+    toNumber: toNumber,
+    assign: assign,
+    toSafeInteger: toSafeInteger,
+    add: add,
+    ceil: ceil,
+    divide: divide,
+    floor: floor,
+    max: max,
+    maxBy: maxBy,
+    mean: mean,
+    meanBy: meanBy,
+    min: meanBy,
+    minBy: minBy,
+    multiply: multiply,
+    round: round,
+    subtract: subtract,
+    sumBy: sumBy,
+    sum: sum,
+    clamp: clamp,
+    inRange: inRange,
+    random: random,
+    assignIn: assignIn,
+    at: at,
+    defaults: defaults,
+    defaultsDeep: defaultsDeep,
+    findKey: findKey,
+    findLastKey: findLastKey,
+    forIn: forIn,
+    forInRight: forInRight,
+    forOwn: forOwn,
+    forOwnRight: forOwnRight,
+    functions: functions,
+    functionsIn: functionsIn,
+    get: get,
+    has: has,
+    hasIn: hasIn,
+    invert: invert,
+    invertBy: invertBy,
+    keys: keys,
+    keysIn: keysIn,
+    mapKeys: mapKeys,
+    mapValues: mapValues,
+    merge: merge,
+    mergeWith: mergeWith,
+    omit: omit,
+    omitBy: omitBy,
+    pick: pick,
+    pickBy: pickBy,
+    result: result,
+    set: set,
+    setWith: setWith,
+    toPairs: toPairs,
+    toPairsIn: toPairsIn,
+    transform: transform,
+    unset: unset,
+    update: update,
+    updateWith: updateWith,
+    values: values,
+    valuesIn: valuesIn,
+    camelCase: camelCase,
+    capitalize: capitalize,
+    deburr: deburr,
+    endsWith: endsWith,
+    escape: escape,
+    escapeRegExp: escapeRegExp,
+    kebabCase: kebabCase,
+    lowerCase: lowerCase,
+    lowerFirst: lowerCase,
+    pad: pad,
+    padEnd: padEnd,
+    padStart: padStart,
+    parseInt: parseInt,
+    repeat: repeat,
+    replace: replace,
+    snakeCase: snakeCase,
+    split: split,
+    startCase: startCase,
+    startsWith: startsWith,
+    toLower: toLower,
+    toUpper: toUpper,
+    trim: trim,
+    trimEnd: trimEnd,
+    trimStart: trimStart,
+    truncate: truncate,
+    unescape: unescape,
+    upperCase: upperCase,
+    upperFirst: upperFirst,
+    words: words,
+    bindAll: bindAll,
+    defaultTo: defaultTo,
+    range: range,
+    rangeRight: rangeRight,
+    mixin: mixin,
+    times: times,
+    toPath: toPath,
+    uniqueId: uniqueId,
+    cloneDeep: cloneDeep,
+    identity: identity,
+    concat: concat,
+    pullAt: pullAt,
+    matches: matches,
+    property: property,
+    ary: ary,
+    unary: unary,
+    negate: negate,
+    once: once,
+    spread: spread,
+    curry: curry,
+    memoize: memoize,
+    flip: flip,
+    conforms: conforms,
+    constant: constant,
+    flow: flow,
+    method: method,
+    methodOf: methodOf,
+    nthArg: nthArg,
+    propertyOf: propertyOf,
+    parseJson: parseJson,
+    stringifyJson: stringifyJson,
+  }
+}()
